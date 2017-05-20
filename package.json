@@ -1,0 +1,26 @@
+{
+  "name": "logbot",
+  "version": "0.0.3",
+  "description": "Logs conversations from a Discord server to a MySQL database.",
+  "engines": {
+    "node": "7.10.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "erlpack": "0.1.2",
+    "discord.js": "11.1.0",
+    "node-mysql": "latest",
+    "better-js-class": "latest",
+    "cps": "*",
+    "mysql": "*",
+    "underscore": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/velinath/logbot"
+  },
+  "license": "MIT"
+}
