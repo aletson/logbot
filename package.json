@@ -12,11 +12,7 @@
   "dependencies": {
     "erlpack": "0.1.2",
     "discord.js": "11.1.0",
-    "node-mysql": "latest",
-    "better-js-class": "latest",
-    "cps": "*",
-    "mysql": "*",
-    "underscore": "*"
+    "mysql": "2.13.0",
   },
   "repository": {
     "type": "git",
