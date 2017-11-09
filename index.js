@@ -15,7 +15,7 @@ client.on('ready', () => {
 client.on('message', message => {
     connection.connect();
     var post = {message: message.content, author_id: message.author, channel_id: message.channel.id};
-    connection.query('INSERT INTO messages SET ?', post, function(error, results, fields) {
+    connection.query('INSERT INTO messages (message, author_id, channel_id) VALUES ?', post, function(error, results, fields) {
         if(error) throw error;
     });
     connection.end(function(error) {
